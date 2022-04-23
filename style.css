@@ -18,6 +18,10 @@ header{
     padding: 0;
     justify-content: flex-end;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .rightPanelHeader p{
     display: flex;
     flex-wrap: wrap;
@@ -60,12 +64,14 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
+    padding-bottom: 80px;
+}
+main h2{
+    padding: 20px;
 }
 .mainContainers{
     display: flex;
     gap: 60px;
-    
 }
 .mainContainers div{
    display: flex;
@@ -86,7 +92,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 60px;
 }
 .quoteText{
     width: 500px;
@@ -98,4 +104,37 @@ main{
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+}
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.signupSection{
+    background-color: #3882F6;
+    color: white;
+    width: 700px;
+    display: flex;
+    padding: 50px;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+.signupSection p{
+    margin: 0;
+    padding: 0;
+}
+.signupButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupButton{
+    width: 100px;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
 }
