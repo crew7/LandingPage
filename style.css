@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .totalPageContent{
     display: flex;
     flex-direction: column;
@@ -7,7 +10,7 @@ header{
     justify-content: center;
     background-color: #1F2937;
     color: white;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     gap: 20px;
 }
 .rightPanelHeader ul{
@@ -16,7 +19,6 @@ header{
     gap: 20px;
     margin: 0;
     padding: 0;
-    justify-content: flex-end;
 }
 a{
     text-decoration: none;
@@ -25,6 +27,7 @@ a{
 .rightPanelHeader p{
     display: flex;
     flex-wrap: wrap;
+    border: 2px solid #3882F6;
 }
 .rightPanelHeader{
     width: 450px;
@@ -32,6 +35,12 @@ a{
 .rightPanelHeader ul{
     margin-top: 20px;
     padding-bottom: 65px;
+    display: flex;
+    justify-content: flex-end;
+}
+.rightPanelHeader img{
+    max-width: 100%;
+    border: 5px solid #3882F6;
 }
 .leftPanelHeader{
     width: 450px;
@@ -67,25 +76,29 @@ main{
     padding-bottom: 80px;
 }
 main h2{
-    padding: 20px;
+    padding: 20px 0px;
 }
 .mainContainers{
     display: flex;
-    gap: 60px;
+    gap: 100px;
 }
-.mainContainers div{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   width: 150px;
-   text-align: center;
-}
-.mainContainers div div{
-    width: 150px;
+.mainContainers img{
+    max-width: 100%;
+    min-height: 100%;
+    width: 200px;
     height: 150px;
     border: 5px solid #3882F6;
     border-radius: 15px;
 }
+
+.mainContainers div{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 200px;
+   text-align: center;
+}
+
 .quoteArea{
     background-color: #E5E7EB;
     display: flex;
