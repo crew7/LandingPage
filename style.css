@@ -1,24 +1,74 @@
-.pageContent{
+.totalPageContent{
     display: flex;
     flex-direction: column;
 }
 header{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     background-color: #1F2937;
     color: white;
+    padding-bottom: 100px;
+    gap: 20px;
 }
-.topHeader{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-.topHeader ul{
+.rightPanelHeader ul{
     list-style: none;
-    display: inline-flex;
+    display: flex;
     gap: 20px;
     margin: 0;
     padding: 0;
+    justify-content: flex-end;
+}
+.rightPanelHeader p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rightPanelHeader{
+    width: 450px;
+}
+.rightPanelHeader ul{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.leftPanelHeader{
+    width: 450px;
+}
+.leftPanelHeader h2{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.leftPanelHeader h1{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+.leftPanelHeader p{
+    margin: 0;
+    padding: 0;
+}
+.leftPanelHeader button{
+    background-color: #3882F6;
+    color: white;
+    border: #3882F6;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainContainers{
+    display: flex;
+    gap: 20px;
     
+}
+.mainContainers div{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
 }
