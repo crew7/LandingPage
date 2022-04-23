@@ -14,6 +14,9 @@ header{
     padding-bottom: 50px;
     gap: 20px;
 }
+button{
+    cursor: pointer;
+}
 .rightPanelHeader ul{
     list-style: none;
     display: flex;
