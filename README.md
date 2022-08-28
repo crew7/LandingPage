@@ -2,6 +2,8 @@
 
 
 
+Github live page of final product can be found here: https://crew7.github.io/landingPageProject.....1/
+
 Credits for images used;
 
 https://pixabay.com/users/stafichukanatoly-3558116/ - valleys
